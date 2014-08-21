@@ -1,0 +1,62 @@
+body {
+    
+}
+
+h1 {
+    color: pink;
+}
+
+
+
+.bears {
+    
+    position: absolute;
+    left: -2%;
+    top: 55%;
+}
+
+.js {
+    
+    font-family: sans-serif;
+    font-size: 18;
+    color: orange;
+    position: absolute;
+    left: 8%;
+    top: 40%;
+}
+
+.css {
+    
+    font-family: sans-serif;
+    font-size: 18;
+    text-align: center;
+    color: green;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    height: 25px;
+    width: 40px;
+    transition: all .5s;
+    
+}
+.css:hover {
+    
+    background-color: black;
+}
+    
+.html {
+    
+    font-family: sans-serif;
+    font-size: 18;
+    color: blue;
+    position: absolute;
+    left: 45%;
+    top: 40%;
+}
+
+@media all and (max-width: 700px) and (min-width: 400px) {
+    body {
+        background-color: red;
+    }
+}
+
